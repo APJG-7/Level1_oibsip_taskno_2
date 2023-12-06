@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Ubuntu:wght@500&family=Work+Sans&display=swap');
+
+*{
+  margin:0;
+  box-sizing:border-box;
+  font-family:'Montserrat',sans-serif;
+}
+
+nav{
+  /* position:fixed; */
+  top:0;
+}
+
+.main-navbar{
+  /* padding:7% 5%; */
+  background-color: #c0ddc3;
+}
+
+
+.navbar-links{
+  font-size:1rem;
+  font-family:'Ubuntu',sans-serif;
+  font-weight:bold;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  color:white;
+}
+
+.nav-item{
+  margin: 0 3%;
+}
+
+/* Profile */
+
+.profile--section{
+  padding:7% 5%;
+}
+
+.profile-bold{
+  font-weight:bold;
+}
+
+.col-md-8{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+/* Profile Section */
+.profile--image{
+  display:flex;
+  justify-content:center;
+  border-radius:5%;
+}
+.profile--info{
+  margin:3%;
+  line-height:2rem;
+  justify-content:center;
+}
+.row{
+  align-items:center;
+  /* padding:2%; */
+  color:#0b4c0b;
+}
+
+/* Skills */
+.skills {
+  background-color: #c0ddc3;
+  padding: 5%;
+}
+
+.skills--table {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+}
+
+.skills--table, .skills--table td, .skills--table th {
+  border: 1px solid black;
+  padding: 3%;
+  word-wrap: break-word; /* Allow long words to break into multiple lines */
+}
+
+.skills--table tr {
+  text-align: left;
+  padding: 2%;
+}
+
+.skills--heading {
+  margin-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .skills--table, .skills--table td, .skills--table th {
+    width: auto;
+    display: block;
+  }
+
+  .skills--table th, .skills--table td {
+    text-align: center;
+  }
+
+  .skills--table thead {
+    display: none; /* Hide the table header on smaller screens */
+  }
+}
+
+/* Projects */
+.projects{
+  align-items:center;
+  padding:2% 10%;
+}
+
+.projects--heading{
+  text-align:center;
+  font-weight:bold;
+  /* font-size:1.5rem; */
+  padding:2rem;
+}
+
+.projects--item{
+  margin:0.5rem 0;
+}
+
+/* Internship */
+.internship{
+  background-color: #c0ddc3;
+  padding:3% 6%;
+  justify-content:center;
+}
+.internship--heading{
+    text-align:center;
+    font-weight:bold;
+    /* font-size:1.5rem; */
+    padding:2rem;
+  margin-bottom:3%;
+}
+.internship--info--company--name{
+  font-weight:bold;
+  font-size:2rem;
+}
+.internship--info--details{
+  font-size:1rem;
+  font-weight:500;
+  line-height:2rem;
+}
+.internship--items{
+  margin:2rem 0;
+}
+
+/* Certifications */
+.certifications{
+  padding:3% 6%;
+  justify-content:center;
+}
+.certifications--heading{
+  text-align:center;
+    font-weight:bold;
+    /* font-size:1.5rem; */
+    padding:2rem;
+  margin-bottom:3%;
+}
+.certifications--info--details{
+  padding:2rem;
+  margin:0 auto;
+}
+.card{
+  margin:0 auto;
+  
+}
+.certifications--info{
+  display:flex;
+  justify-content:center;
+}
+
+/* Footer */
+.footer{
+  background-color: #c0ddc3;
+  padding:7% 5%;
+  justify-content:center;
+}
+.footer--items .row{
+  justify-content:center;
+}
+
+.footer--items--details img{
+  display:inline-block;
+  margin:0 auto;
+}
